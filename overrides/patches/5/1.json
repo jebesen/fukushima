@@ -1,0 +1,18 @@
+[
+  {
+    "replace": "En febrero de 2015 existían 826 depósitos de agua tratada en el emplazamiento.",
+    "with": "En febrero de 2015 existían 826 depósitos de agua tratada en el emplazamiento. En 2022 había unos 1.000 depósitos, con unos 1,3 millones de m³ de agua tratada, y en febrero de 2025 TEPCO comenzó a desmantelar algunos de ellos."
+  },
+  {
+    "replace": "que ya está en operación en el lado los edificios de los reactores que da a la montaña",
+    "with": "de algo menos de 1,6 km de longitud"
+  },
+  {
+    "replace": "También se ha previsto la construcción de un muro criogénico en el lado de los edificios de los reactores que da al mar.",
+    "with": "Rodea los edificios de las unidades 1 a 4 y, tras irse congelando por tramos desde marzo de 2016, está en funcionamiento completo desde finales de agosto de 2017."
+  },
+  {
+    "after": "Como resultado de las misiones de examen del AIEA, se aconsejó a TEPCO que realizara una evaluación de los posibles efectos radiológicos de la emisión al mar de agua con tritio y otros radionucleidos residuales.",
+    "insert": "<p>Con el conjunto de estas medidas (los subdrenajes, los muros impermeables y el muro de suelo congelado), la cantidad de agua contaminada que se genera ha pasado de unos 540 m³/día en mayo de 2014 a unos 80 m³/día en el año fiscal 2023, con lo que se alcanzó el objetivo de no superar los 100 m³/día en 2025. El siguiente objetivo es reducirla a entre 50 y 70 m³/día en 2028.</p>\n<p>En abril de 2021 el Gobierno de Japón anunció que el agua tratada con ALPS se vertería al mar de forma gradual, previa dilución, a lo largo de unos 30 años. El vertido comenzó el 24 de agosto de 2023 y se realiza por lotes: en agosto de 2026 se iniciaba el lote número 22, con unos 163.800 m³ vertidos desde el comienzo. El AIEA mantiene una oficina y un laboratorio en el emplazamiento y, según sus análisis, la concentración de tritio de los lotes analizados está muy por debajo del límite operativo japonés (1.500 Bq/l). La decisión ha sido objeto de debate en Japón y en otros países.</p>"
+  }
+]

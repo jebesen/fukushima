@@ -1,0 +1,271 @@
+{
+ "unit": "3",
+ "title": "3. Test de autoevaluación",
+ "questions": [
+  {
+   "n": 1,
+   "text": "Un accidente de nivel 4 en la escala INES, ¿qué consecuencias tiene?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Radiación débil al exterior y contaminación grave de un trabajador. Accidentes evitados por un escaso margen.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Consecuencias de gran alcance, daños graves en el núcleo y emisiones limitadas de radiación.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Consecuencias de alcance local, radiación menor al exterior, daños importantes en el núcleo o exposición mortal de un trabajador.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Accidente importante. Emisiones importantes de radiación al exterior.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "¿Por qué es crítico el hinchado de las vainas de zircaloy en el proceso de fusión del núcleo?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Al oxidarse las vainas de zircaloy se produce nitrógeno en el interior de la vasija.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Si no se detiene el hinchado de las vainas a tiempo, pueden explotar ocasionando daños a la vasija.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Se reduce el flujo de refrigerante empeorando la situación al aumentar más la temperatura.",
+     "correct": true,
+     "why": "<small>El hinchado de las vainas puede bloquear una parte importante del área de flujo del núcleo y reducir el flujo de refrigerante, empeorando la situación. </small>"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "¿Qué fallos pueden resultar en la fusión del núcleo? (marca todas las opciones correctas):",
+   "image": null,
+   "multiple": true,
+   "options": [
+    {
+     "text": "Pérdida de control de la presión.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Pérdida de refrigerante.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Aumento inadvertido de la potencia de generación.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "La combinación de varios de los anteriores.",
+     "correct": true,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "¿En qué nivel de la escala INES se clasificó el accidente nuclear de Three Mile Island?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Nivel 4.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Nivel 5.",
+     "correct": true,
+     "why": "<small>Aunque el núcleo del reactor nuclear quedó fuertemente dañado tuvo un escape limitado de productos radiactivos al exterior. El accidente fue clasificado como nivel 5 en la Escala Internacional de Sucesos Nucleares (INES).</small>"
+    },
+    {
+     "text": "Nivel 6.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Nivel 7.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "¿En qué central nuclear española se produjo un accidente de nivel 3 en la escala INES en 1989?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "CN Santa María de Garoña.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "CN Ascó.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "CN Trillo.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "CN Vandellós.",
+     "correct": true,
+     "why": "<small>El 19 de octubre de 1989 se declaró un incendio en la zona de turbinas de la central nuclear de Vandellós, calificado a posteriori como incidente de nivel 3 en la escala INES (\"incidente importante\"), es decir, no provocó emisión de radiactividad al exterior. </small>"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "¿Cuándo y de que tipo fue la primera de las evacuaciones decretadas tras el accidente?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "6 horas después del accidente y con un radio de 2 km alrededor de la central.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "7 horas después del accidente y con un radio de 3 km alrededor de la central.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "6 horas después del accidente y con un radio de 3 km alrededor de la central.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "7 horas después del accidente y con un radio de 10 km alrededor de la central.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "¿Cuál de los cuatro reactores fue el primero en sufrir una fusión del núcleo?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Reactor U2.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Reactor U3.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Reactor U4.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Reactor U1.",
+     "correct": true,
+     "why": "<small>A las 06:50 del sábado 12 de marzo el núcleo del reactor de la unidad U1 ya se ha fundido completamente y se está precipitando al fondo de la vasija, aunque esta información es desconocida en ese momento.</small>"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "¿Cuál fue el motivo de la explosión en el edificio del reactor de la U4?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Se había evaporado y secado la piscina exponiendo el combustible.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Presencia de hidrógeno procedente de la U3.",
+     "correct": true,
+     "why": "<small>Aunque inicialmente se pensó en que se había evaporado y secado la piscina exponiendo el combustible, posteriormente se descubrió que la explosión fue debida a hidrógeno debido al venteo del reactor de la unidad U3, ya que las unidades U3 y U4 comparten instalaciones.</small>"
+    },
+    {
+     "text": "Presencia de hidrógeno procedente de la U2.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "¿Cuánto yodo-131 se emitió en Fukushima en comparación con el emitido en Chernobyl?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Un tercio.",
+     "correct": true,
+     "why": "<small>En Three Mile Island se emitieron 560 GBq (Gigabecquerels) y en Chernobyl 1760 PBq. Esto significa que en Fukushima se emitió un millón de veces más yodo-131 que en Three Mile Island y alrededor de un tercio de lo emitido en Chernobyl. </small>"
+    },
+    {
+     "text": "La mitad.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "El doble.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Un cuarto.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "En el accidente de Fukushima se evacuaron casi 90000 personas. ¿Cuántas personas fueron evacuadas en el accidente nuclear de Three Mile Island?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "100000 personas aproximadamente.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "500000 personas aproximadamente.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "200000 personas aproximadamente.",
+     "correct": true,
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

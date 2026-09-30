@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>El accidente nuclear de Fukushima · OpenCourseWare UNED</title>
+<meta name="description" content="Curso abierto en español sobre el accidente nuclear de Fukushima Dai-ichi: contenidos, microvídeos y autoevaluación. UNED.">
+<meta name="theme-color" content="#0f1b2d">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Fukushima">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="css/app.css">
+<script>
+  /* Aplica el tema guardado antes de pintar (evita parpadeo) */
+  try { var t = localStorage.getItem('fuku:theme'); if (t) document.documentElement.dataset.theme = JSON.parse(t); } catch (e) {}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<!-- Iconos (sprite). Se referencian con <svg class="ico"><use href="#i-nombre"/></svg> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+  <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4M12 17h.01"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-megaphone" viewBox="0 0 24 24"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="i-gears" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></symbol>
+  <symbol id="i-install" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M12 7v7m-3-3 3 3 3-3M10 18h4"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7h-6v7H4a1 1 0 0 1-1-1z"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="m6 4 14 8-14 8z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+</svg>
+
+<div id="prog" aria-hidden="true"></div>
+
+<header class="top">
+  <button id="btn-menu" class="ib menu-btn" aria-label="Abrir índice del curso" aria-controls="side" aria-expanded="false">
+    <svg class="ico"><use href="#i-menu"/></svg>
+  </button>
+  <a class="brand" href="#/" aria-label="Inicio">
+    <img src="assets/images/logo.png" alt="" width="36" height="36" class="brand-logo">
+    <span class="brand-t"><b>Fukushima</b><small>Accidente nuclear · OCW UNED</small></span>
+  </a>
+  <span class="grow"></span>
+  <button id="btn-install" class="btn-pill" hidden><svg class="ico"><use href="#i-install"/></svg><span>Instalar</span></button>
+  <button id="btn-search" class="ib" aria-label="Buscar en el curso" title="Buscar (Ctrl+K)"><svg class="ico"><use href="#i-search"/></svg></button>
+  <button id="btn-theme" class="ib" aria-label="Cambiar tema claro/oscuro" title="Cambiar tema"><svg class="ico"><use href="#i-moon"/></svg></button>
+</header>
+
+<div class="shell">
+  <aside id="side" class="side" aria-label="Contenido del curso"></aside>
+  <div class="col">
+    <main id="main" tabindex="-1"><p class="loading">Cargando…</p></main>
+    <footer class="foot">
+      <div class="foot-grid">
+        <div>
+          <h3>Organizado por</h3>
+          <img src="assets/images/logo_uned.png" alt="UNED" height="56" loading="lazy">
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <p><b>Dpto. Ingeniería Energética. Área de Ingeniería Nuclear.</b><br>
+             <b>Universidad Nacional de Educación a Distancia. UNED.</b><br>
+             Juan del Rosal 12. 28040 Madrid<br>
+             <a href="mailto:malonso@ind.uned.es">malonso@ind.uned.es</a></p>
+        </div>
+        <div>
+          <h3>Licencia</h3>
+          <p>© 2016 Dpto. Ingeniería Energética. UNED. Licencia Creative Commons.</p>
+          <img src="assets/images/CC.png" alt="Creative Commons" loading="lazy">
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+<div id="scrim"></div>
+
+<div id="pop" class="pop" role="dialog" aria-modal="false" hidden></div>
+
+<dialog id="lightbox" aria-label="Imagen ampliada">
+  <button class="ib close" aria-label="Cerrar" data-close><svg class="ico"><use href="#i-x"/></svg></button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+</dialog>
+
+<dialog id="search" aria-label="Buscar en el curso">
+  <form method="dialog" class="s-head">
+    <svg class="ico"><use href="#i-search"/></svg>
+    <input id="q" type="search" placeholder="Buscar en todo el curso…" autocomplete="off" aria-label="Buscar">
+    <button class="ib" value="close" aria-label="Cerrar"><svg class="ico"><use href="#i-x"/></svg></button>
+  </form>
+  <div id="s-res" class="s-res" aria-live="polite"><p class="muted">Escribe al menos dos letras.</p></div>
+</dialog>
+
+<dialog id="ios-hint" aria-label="Instalar en iPhone o iPad">
+  <h3>Instalar en iPhone / iPad</h3>
+  <ol>
+    <li>Abre esta página en <b>Safari</b>.</li>
+    <li>Pulsa el botón <b>Compartir</b> (el cuadrado con la flecha hacia arriba).</li>
+    <li>Elige <b>Añadir a pantalla de inicio</b>.</li>
+  </ol>
+  <form method="dialog"><button class="btn">Entendido</button></form>
+</dialog>
+
+<dialog id="reset" aria-label="Borrar el progreso">
+  <h3>¿Borrar todo tu progreso?</h3>
+  <p>Se olvidarán los apartados que has visitado, las notas de los tests y el punto en el que lo dejaste. No se puede deshacer. Los textos guardados para usar sin conexión no se tocan.</p>
+  <form method="dialog" class="dlg-actions">
+    <button class="btn sec" value="cancel">Cancelar</button>
+    <button class="btn" value="ok">Sí, borrar</button>
+  </form>
+</dialog>
+
+<nav id="mbar" class="mbar" aria-label="Navegación entre apartados" hidden>
+  <a id="mb-prev" class="mb-btn"><svg class="ico" aria-hidden="true"><use href="#i-chevron-left"/></svg><span class="mb-t"><small>Anterior</small><b></b></span></a>
+  <button id="mb-menu" class="mb-btn mb-menu" type="button" aria-label="Abrir índice del curso"><svg class="ico" aria-hidden="true"><use href="#i-menu"/></svg></button>
+  <a id="mb-next" class="mb-btn mb-next"><span class="mb-t"><small>Siguiente</small><b></b></span><svg class="ico" aria-hidden="true"><use href="#i-chevron-right"/></svg></a>
+</nav>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<noscript><p style="padding:2rem">Este curso necesita JavaScript para funcionar.</p></noscript>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

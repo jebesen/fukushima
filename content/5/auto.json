@@ -1,0 +1,276 @@
+{
+ "unit": "5",
+ "title": "5. Test de autoevaluación",
+ "questions": [
+  {
+   "n": 1,
+   "text": "¿Cuál de estos puntos no se encontraba entre las prioridades de la hoja de ruta para la recuperación de la central?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Recuperar la refrigeración de los reactores.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Volver a poner en servicio el reactor U3 lo antes posibles para asegurar el suministro.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Recuperar la refrigeración de las piscinas.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Reciclar y reducir la cantidad de agua acumulada.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "Tras el accidente, ¿qué cantidad de agua aproximadamente entraba en los edificios procedente de las aguas subterráneas?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "300 m<sup>3</sup>",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "400 m<sup>3</sup>",
+     "correct": true,
+     "why": "<small>Después del accidente, comenzaron a entrar aproximadamente 400 m<sup>3</sup>/día de agua subterránea no contaminada en los edificios.</small>"
+    },
+    {
+     "text": "800 m<sup>3</sup>",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "150 m<sup>3</sup>",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "¿Cuál de estas frases es cierta?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "El muro criogénico que rodea los edificios de los reactores está en construcción.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Se han instalado muro impermeables del lado del mar.",
+     "correct": true,
+     "why": "<small>TEPCO instaló muros impermeables del lado del mar. Del lado de tierra hay además un muro de suelo congelado que rodea los edificios de los reactores 1 a 4, en funcionamiento completo desde finales de agosto de 2017.</small>"
+    },
+    {
+     "text": "El agua subterránea no contaminada no se desvió hacia el mar.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Toda el agua tratada con ALPS que se almacenaba en los depósitos ya se ha vertido al mar.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "Según el plan de limpieza y desmantelamiento de 2011-2016, ¿cuándo estaba prevista la finalización de la Fase 2?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "A principio de 2030.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Marzo de 2020.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Diciembre de 2021",
+     "correct": true,
+     "why": "<small>La fase 2, de aproximadamente 10 años (diciembre de 2021), comprende hasta el comienzo de la extracción del material fundido de los reactores. En la práctica, la fase 3 comenzó en septiembre de 2024, con la primera extracción de prueba de combustible fundido en la unidad 2.</small>"
+    },
+    {
+     "text": "Finales de 2020.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "¿En qué fase del Plan de limpieza y desmantelamiento se completa la retirada del Corium?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "En la fase 2.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "En la fase 3.",
+     "correct": true,
+     "why": "<small>La extracción y gestión de los restos del combustible fundido del núcleo de un reactor, a realizar en la fase 3, es una tarea muy compleja. </small>"
+    },
+    {
+     "text": "Ya ha sido retirado en la fase 1.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "¿Cuál de estas centrales se está tomando como referencia para acometer la clausura de la central de Fukushima?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Windscale (Reino Unido).",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Three Mile Island (Estados Unidos)",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Chernobyl (Antigua Unión Soviética)",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Ninguna de ellas.",
+     "correct": true,
+     "why": "<small>Ninguna de las tres centrales de otros lugares del mundo que han experimentado los daños más severos en el combustible en accidentes anteriores ha alcanzado aún el estado final definitivo de clausura completa.</small>"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "¿Qué nivel de referencia fijó el gobierno de Japón para abordar la rehabilitación?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "20 mSv/año, el valor más alto de la orientación internacional.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "1 mSv/año, el valor más bajo de la orientación internacional.",
+     "correct": true,
+     "why": "<small>El Gobierno de Japón fijó niveles de referencia que eran deliberadamente bajos y se adoptó un objetivo a largo plazo para los residentes, una vez finalizada la rehabilitación, de una dosis adicional no superior a 1 mSv/año. Este es el valor más bajo del rango especificado en la orientación internacional.</small>"
+    },
+    {
+     "text": "8 mSv/año.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "15 mSv/año.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "¿A qué se corresponde la Zona de Estudio Intensivo de Contaminación?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "A los municipios con una dosis anual de radiación adicional recibida estimada entre 1 y 20 mSv.",
+     "correct": true,
+     "why": "<small>Los municipios realizan estudios de monitorización para determinar las zonas que requieren descontaminación y ejecutan actividades de rehabilitación en esas zonas, con el apoyo financiero y técnico del Gobierno nacional.</small>"
+    },
+    {
+     "text": "A los municipios con una dosis anual de radiación adicional recibida estimada superior a 20 mSv.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "A los municipios con una dosis anual de radiación adicional recibida estimada inferior a 1 mSv.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "¿Cuál de estas frases no es cierta?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "La política de indemnizaciones aplicó sólo a quienes recibieron la orden de evacuación.",
+     "correct": true,
+     "why": "<small>La política de indemnización establecida se aplica no solo a quienes recibieron la orden de evacuación, sino que también abarca los efectos en los medios de subsistencia y las formas de vida, la pérdida de beneficios debido a las restricciones y la pérdida de confianza de los consumidores, así como los cambios de infraestructura para quienes siguieron en la zona.</small>"
+    },
+    {
+     "text": "Se dejó de pescar en un radio de 30 km alrededor del emplazamiento (reducida posteriormente a 20 km).",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "El bienestar físico y mental de los evacuados supuso un desafío muy importante.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "El máximo de evacuados se alcanzó en junio de 2012.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "Según las estimaciones de 2015, ¿qué volumen de material contaminado se iba a generar en el proceso de limpieza fuera de la central?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "9 a 15 millones de m<sup>3</sup>.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "16 a 22 millones de m<sup>3</sup>.",
+     "correct": true,
+     "why": "<small>Se estimaba que la cantidad de suelo y otros materiales contaminados generados a raíz de las actividades de rehabilitación posteriores al accidente sería de aproximadamente 16 a 22 millones de m<sup>3</sup> tras la reducción del volumen por incineración de plantas y árboles. En 2025, el Ministerio de Medio Ambiente de Japón cifraba en unos 14 millones de m<sup>3</sup> el suelo retirado.</small>"
+    },
+    {
+     "text": "23 a 28 millones de m<sup>3</sup>.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "29 a 35 millones de m<sup>3</sup>.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,271 @@
+{
+ "unit": "6",
+ "title": "6. Impacto del accidente y lecciones aprendidas",
+ "questions": [
+  {
+   "n": 1,
+   "text": "¿Cuál de estos países de la UE dio un giro su política nuclear tras el accidente de Fukushima?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Reino Unido.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "España.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Francia.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Alemania.",
+     "correct": true,
+     "why": "<small>En la UE, sólo Alemania ha variado sus planes a corto y medio plazo en referencia a las fuentes de generación eléctricas al decidir, tras el accidente de Fukushima, clausurar todas las centrales nucleares en 2022.</small>"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "Tras el accidente, la Comisión Europea formalizó su apoyo a la Energía Nuclear con…",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "…la Hoja de Ruta de la Energía 2050.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "… la Estrategia Europa 2020 (EE2020).",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "… la Atomic Energy Act.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "…nada. La CE nunca dio su apoyo a la energía nuclear tras el accidente.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "Tras el parón nuclear en Japón tras el accidente, ¿Cuándo volvió a conectarse a la red el primer reactor nuclear de nuevo?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Enero del 2015.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Febrero del 2016.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Agosto del 2015.",
+     "correct": true,
+     "why": "<small>En agosto de 2015 se conectó de nuevo a la red eléctrica Sendai-1, reanudando oficialmente su operación comercial el 10 de septiembre.</small>"
+    },
+    {
+     "text": "No se ha vuelto a conectar energía de origen nuclear en Japón.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "¿En qué período estaba previsto que se realizaran los “peer review” de los informes de las pruebas de resistencia?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Último trimestre del año 2011.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Segundo trimestre del año 2012.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "En el primer trimestre del año 2012.",
+     "correct": true,
+     "why": "<small>Los trabajos de la revisión por pares (peer review) de los informes finales se realizaron entre el enero y abril del 2012.</small>"
+    },
+    {
+     "text": "Último trimestre del año 2012.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "¿Cuál de estos sucesos NO se debía considerar al definir las pruebas de resistencia?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Sucesos de origen externo: terremotos, inundaciones y otros sucesos naturales.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Gestión de accidentes severos en el núcleo del reactor y accidentes con pérdida de inventario y/o refrigeración en las piscinas de combustible gastado.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Sucesos de origen externo: sabotajes y terrorismo.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Pérdida de las funciones de seguridad.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "¿Cuál de estas frases es cierta?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "La WENRA realiza una propuesta de pruebas de resistencia al ENSREG, que posteriormente se presenta a la CE y al Consejo Europeo.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "El regulador de cada país define unas pruebas de rendimiento, que aprueba la WENRA y se presentan a la CE y al Consejo Europeo.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "La CE y el Consejo Europeo aprueban unas pruebas de rendimiento definidas por el ENSREG. La WENRA debe asegurarse que se realizan por parte de los reguladores de cada país.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "¿Cuál es la diferencia entre el sistema de venteo de las centrales nucleares en Japón respecto a las de Estados Unidos?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "En Estados Unidos el venteo inicia cuando se ha sobrepasado la presión de diseño de la contención.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "En Estados Unidos los BRW no disponen de discos de ruptura.",
+     "correct": true,
+     "why": "<small>Los BWR de los Estados Unidos no disponen, generalmente, de discos de ruptura, y los procedimientos de operación de emergencia requieren que se inicie el venteo antes de que se alcance la presión de diseño de la contención.</small>"
+    },
+    {
+     "text": "En Estados Unidos las válvulas que permiten el venteo se accionan sin necesidad de electricidad.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "¿Cuál fue el principal problema que surgió con el centro externo de emergencias?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Fallo en los sistemas de comunicaciones.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Altos niveles de radiación.",
+     "correct": true,
+     "why": "<small>El centro tampoco estaba diseñado con ventilación filtrada y tuvo que ser abandonado por los altos niveles de contaminación radiactiva.</small>"
+    },
+    {
+     "text": "Acceso imposible debido al terremoto.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "No hubo ningún problema con el centro externo de emergencias.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "¿En que año como máximo ha fijado Alemania el cierre de todas las centrales nucleares?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "2020.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "2021.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "2022.",
+     "correct": true,
+     "why": "<small>El accidente nuclear de la central de Fukushima dio lugar a la decisión del Parlamento alemán de cerrar ocho de las diecisiete centrales nucleares del país y de comprometerse a clausurar progresivamente el resto antes de 2022.</small>"
+    },
+    {
+     "text": "2023.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "¿Se han realizado en Estados Unidos acciones de evaluación similares a los Stress Test de Europa?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "No, no se ha tomado ninguna medida en particular.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Sí, con especial hincapié en las centrales con mayor antigüedad.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Sí, con especial hincapié en los desastres naturales.",
+     "correct": true,
+     "why": "<small>En Estados Unidos se sometió al conjunto del parque, 104 reactores en operación, a pruebas exhaustivas de evaluación de la seguridad y revisión de los márgenes de diseño con que fueron construidos, con especial hincapié en lo referente a posibles desastres naturales similares a los que provocaron el accidente en Japón.</small>"
+    }
+   ]
+  }
+ ]
+}

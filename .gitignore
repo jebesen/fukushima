@@ -1,0 +1,5 @@
+_extra.txt
+__pycache__/
+*.pyc
+# Restos del antiguo mecanismo de recuadros de actualización (ya no se usa; se puede borrar la carpeta)
+overrides/prepend/

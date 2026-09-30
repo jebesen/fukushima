@@ -1,0 +1,266 @@
+{
+ "unit": "4",
+ "title": "4. Test de autoevaluación",
+ "questions": [
+  {
+   "n": 1,
+   "text": "¿Cuáles de estas radiaciones pueden atravesar una hoja de papel pero no una lámina de aluminio?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Radiaciones alfa.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Radiaciones beta.",
+     "correct": true,
+     "why": "<small>Las radiaciones alfa no son capaces de traspasar ni siquiera una hoja de papel, mientras que los rayos X y Gamma traspasan la lámina de aluminio y se requiere una lámina de plomo de suficiente grosor para frenarlos. Los neutrones son ionizantes de forma indirecta y se necesitaría una gruesa pared de hormigón o determinados elementos químicos para pararlos.</small>"
+    },
+    {
+     "text": "Radiaciones X y Gamma.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Neutrones.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "La magnitud de medida “Dosis efectiva”…",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "… se refiere a los riesgos y no sólo al efecto biológico.",
+     "correct": true,
+     "why": "<small>Como no todos los tejidos de nuestro organismo son igual de sensibles a la radiación y por tanto no todos ellos contribuirán de igual forma al perjuicio que la exposición tendrá en nuestra salud, se ha definido la magnitud Dosis Efectiva, para tener en cuenta este factor.</small>"
+    },
+    {
+     "text": "… se mide en Grays.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "… se refiere a la energía depositada por unidad de masa.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "… indica la dosis de radiación recibida por unidad de tiempo.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "¿Cuál de estas frases es cierta?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "En los efectos estocásticos la gravedad depende de la dosis.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Los efectos estocásticos no tienen lugar por debajo de una dosis mínima.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "La aparición de tumores malignos se debe a los efectos no estocásticos.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "En los efectos no estocásticos las lesiones son más severas cuanto mayor sea la cantidad de radiación recibida.",
+     "correct": true,
+     "why": "<small>En los efectos no estocásticos (causales) la gravedad depende de la dosis recibida.</small>"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "¿A partir de qué valor de dosis equivalente se espera la muerte a corto plazo en el 50% de los individuos afectados?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "500 mSV",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "10000 msV",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "4000 msV",
+     "correct": true,
+     "why": "<small>4000 msV aseguran la muerte en el 50% de los casos. Con dosis de 10000 msV la muerte se da en el 100% de los casos.</small>"
+    },
+    {
+     "text": "2000 msV",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "Marca todas las frases que sean ciertas:",
+   "image": null,
+   "multiple": true,
+   "options": [
+    {
+     "text": "El yodo-131 tiene una semivida de 8,02 días.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "El cesio-137 es muy soluble en agua.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "El cesio-137 tiene una semivida de 25,6 años.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "El cesio-137 tiende a acumularse en la glándula tiroides.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "¿Cuál fue la actividad total media del yodo-131 emitido en el accidente?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Entre 20 y 100 PBq",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Entre 100 y 400 PBq",
+     "correct": true,
+     "why": "<small>La actividad total media del yodo-131 emitido fue de entre 100 y 400 PBq (entre 90 y 700 PBq según primeras estimaciones)</small>"
+    },
+    {
+     "text": "Entre 400 y 700 PBq",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Entre 700 y 1200 PBq",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "¿Cuál de estas frases es cierta?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "El UNSCEAR determinó que “se prevé un aumento discernible de la incidencia de efectos en la salud relacionados con la radiación entre la población general expuesta y su descendencia”.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "El efecto más importante del accidente desde el punto de vista de la salud es el que se produce en el bienestar mental y social y que guarda relación con el enorme impacto del sismo, el tsunami y el accidente nuclear.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "No se ha informado de trastornos psicológicos entre la población afectada por el accidente nuclear.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Como las dosis en la tiroides atribuibles al accidente que se comunicaron fueron moderadas, es bastante probable que se produzca en un futuro un aumento del cáncer de tiroides infantil atribuible al accidente.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "Aunque la mayoría de las emisiones atmosféricas se dispersaron hacia el este, los días 12, 14 y 15 de Marzo el viento transportó los radionucleidos en otra dirección. ¿Cuál?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Norte.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Oeste.",
+     "correct": true,
+     "why": "<small>Las emisiones que se produjeron el 12, 14 y 15 de marzo fueron transportadas por el viento tierra adentro, y los radionucleidos correspondientes, en particular el yodo-131, el cesio-134 y el cesio-137, se depositaron sobre el suelo.</small>"
+    },
+    {
+     "text": "Sur.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "En el contexto de la protección radiológica, ¿qué entendemos por Situación de Exposición de Emergencia?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Situaciones inesperadas, que demandan una atención urgente.",
+     "correct": true,
+     "why": "<small>Como las que pueden sobrevenir durante la operación de una situación planificada (accidente) o de un acto malévolo.</small>"
+    },
+    {
+     "text": "Situaciones que involucran la introducción y la operación planificada de fuentes.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Situaciones que existen cuando tiene que ser tomada una decisión sobre su control.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "¿Cómo se llama la red española que mide de forma continua y en tiempo real la radiación gamma y la concentración radiactiva en el aire?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "La Red de Estaciones Automáticas (REA)",
+     "correct": true,
+     "why": "<small>La red REA también da la alerta en caso de incidente o accidente radiológico.</small>"
+    },
+    {
+     "text": "La Red de Estaciones de Muestreo (REM)",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "unit": "2",
+ "title": "2. Test de autoevaluación",
+ "questions": [
+  {
+   "n": 1,
+   "text": "¿Cuántos reactores y cuanta potencia instalada tenía la central de Fukushima Dai-ichi?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "6 reactores y 8170 MW de potencia instalada",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "5 reactores y 8170 MW de potencia instalada",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "6 reactores y 5840 MW de potencia instalada",
+     "correct": true,
+     "why": "<small>Con seis reactores nucleares, todos ellos operados por la empresa TEPCO y con una potencia total de 5840 MW, la central nuclear de Fukushima Dai-ichi es una de las centrales más grandes del mundo.</small>"
+    },
+    {
+     "text": "5 reactores y 5840 MW de potencia instalada",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "De estos sistemas de refrigeración de seguridad, ¿Cuál es el primero que entraría en funcionamiento en caso de quedar el reactor aislado?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Sistema de aspersión del núcleo a alta presión (HPCS)",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Sistema de despresurización automática (ADS)",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Condensador de aislamiento (Isolation Condenser IC)",
+     "correct": true,
+     "why": "<small>Cuando que el reactor queda aislado de la turbina y el condensador se activa el Condensador de Aislamiento (IC) o el Sistema de refrigeración del núcleo aislado (RCIC)</small>"
+    },
+    {
+     "text": "Sistema de inyección de refrigerante a baja presión (LPCI)",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "Durante la construcción de la central se redujo la altura del terreno 25 metros. ¿Por qué? (marca todas las opciones correctas):",
+   "image": null,
+   "multiple": true,
+   "options": [
+    {
+     "text": "Para permitir que la base de los reactores pudiera ser construida sobre roca sólida.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Aumentar la protección frente a tormentas y maremotos.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Mantener bajos los costos de funcionamiento de las bombas de agua de mar.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Facilitar el acceso por mar de los cargueros de transporte.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "Que unidades de la central de Fukushima Dai-ichi estaban generando energía eléctrica en el momento del accidente (marca todas las opciones correctas):",
+   "image": null,
+   "multiple": true,
+   "options": [
+    {
+     "text": "Unidad 1",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Unidad 2",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Unidad 3",
+     "correct": true,
+     "why": "<small>Cuando ocurrió el terremoto, los tres reactores de las unidades 1, 2 y 3 estaban en funcionamiento normal a la potencia nominal, mientras que las unidades 4, 5 y 6 se encontraban en diferentes etapas de reabastecimiento planificado y parada por inspección periódica.</small>"
+    },
+    {
+     "text": "Unidad 4",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Unidad 5",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Unidad 6",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "¿Para qué sirve el Venteo?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Es el sistema de ventilación de la central. Permite diluir en el aire cualquier fuga radiactiva.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Para eliminar posibles depósitos de hidrógeno.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Aumenta el rendimiento del sistema de refrigeración del núcleo aislado.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Para aliviar la sobrepresión de la contención primaria.",
+     "correct": true,
+     "why": "<small>Como una medida para mejorar la capacidad de hacer frente a accidentes graves se instaló un sistema de venteo en las unidades de la central nuclear Fukushima Dai-ichi en la década de 1990, tras una decisión reguladora. El propósito del sistema de venteo de la contención es aliviar la sobrepresión de la contención primaria.</small>"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "¿Cuál de estos reactores contaba con un Condensador de Aislamiento?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Reactor 1",
+     "correct": true,
+     "why": "<small>El condensador de aislamiento para la refrigeración pasiva del núcleo estaba presente en el reactor 1. Los reactores del 2 al 6 contaban con un sistema de refrigeración del núcleo del reactor aislado.</small>"
+    },
+    {
+     "text": "Reactor 2",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Reactor 3",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Reactor 4",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "¿Cuál fue la magnitud máxima del terremoto en la escala sismológica de magnitud de momento?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "7,9 MW",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "8,3 MW",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "8,8 MW",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "9 MW",
+     "correct": true,
+     "why": "<small>En un primer momento se calculó la magnitud del terremoto en 7,9 grados MW, que fue posteriormente incrementada a 8,8, después a 8,9 grados por el Servicio Geológico de los Estados Unidos (USGS). Finalmente a 9,0 grados MW, confirmado por la JMA y el USGS.</small>"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "¿Cuál era la magnitud de diseño máxima para terremotos de la central de Fukushima Dai-ichi?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "6,3 MW",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "7,1 MW",
+     "correct": true,
+     "why": "<small>La central nuclear de Fukushima Dai-ichi se diseñó teniendo en cuenta que se encontraba en una zona de posible actividad sísmica y considerando una magnitud máxima de diseño de 7,1 para un terremoto.</small>"
+    },
+    {
+     "text": "8,6 MW",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "8,9 MW",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "¿Cuál fue la altura de la ola que finalmente terminó inundando la central?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "15 metros",
+     "correct": true,
+     "why": "<small>Las olas del tsunami comenzaron a llegar a la central nuclear de Fukushima Dai-ichi alrededor de 40 minutos después del terremoto. El emplazamiento quedó protegido de la primera ola, de una altura de subida de entre 4 y 5 metros, por la barrera de diques marítimos diseñados para proteger la costa contra un tsunami de una altura máxima de 5,5 metros. Sin embargo, unos 10 minutos después, una segunda ola, la más grande de todas, de una subida de entre 14 y 15 metros, superó los diques e inundó el emplazamiento.</small>"
+    },
+    {
+     "text": "12 metros",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "17 metros",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "20 metros",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "¿Cuánto tiempo pasó desde el terremoto hasta la llegada de la ola que inundó la central?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "30 minutos",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "40 minutos",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "50 minutos",
+     "correct": true,
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

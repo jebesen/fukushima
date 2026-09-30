@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 401" width="760" height="401" role="img" aria-labelledby="t d" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Mix de generación de electricidad en el mundo, 2025</title><desc id="d">Gráfico de barras del mix eléctrico mundial en 2025: carbón 33,0 %, gas 21,8 %, hidráulica 14 %, nuclear 8,9 %, solar 8,7 %, eólica 8,5 % y otras 5,1 %.</desc>
+<rect width="760" height="401" rx="12" fill="#ffffff"/>
+<text x="24" y="32" font-size="18" font-weight="700" fill="#1b2836">Mix de generación de electricidad en el mundo, 2025</text>
+<text x="24" y="53" font-size="12.5" fill="#5b6776">Porcentaje de la generación eléctrica mundial</text>
+<line x1="178.0" x2="178.0" y1="70" y2="272" stroke="#e3e8ee"/>
+<text x="178.0" y="288" font-size="11" fill="#5b6776" text-anchor="middle">0</text>
+<line x1="299.5" x2="299.5" y1="70" y2="272" stroke="#e3e8ee"/>
+<text x="299.5" y="288" font-size="11" fill="#5b6776" text-anchor="middle">10</text>
+<line x1="421.0" x2="421.0" y1="70" y2="272" stroke="#e3e8ee"/>
+<text x="421.0" y="288" font-size="11" fill="#5b6776" text-anchor="middle">20</text>
+<line x1="542.5" x2="542.5" y1="70" y2="272" stroke="#e3e8ee"/>
+<text x="542.5" y="288" font-size="11" fill="#5b6776" text-anchor="middle">30</text>
+<line x1="664.0" x2="664.0" y1="70" y2="272" stroke="#e3e8ee"/>
+<text x="664.0" y="288" font-size="11" fill="#5b6776" text-anchor="middle">40</text>
+<text x="168" y="90" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Carbón</text>
+<rect x="178" y="76" width="400.9" height="18" rx="3" fill="#2b5d94"/>
+<text x="585.0" y="90" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">33,0 %</text>
+<text x="585.0" y="90" font-size="13" font-weight="700" fill="#1b2836">33,0 %</text>
+<text x="168" y="118" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Gas natural</text>
+<rect x="178" y="104" width="264.9" height="18" rx="3" fill="#2b5d94"/>
+<text x="448.9" y="118" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">21,8 %</text>
+<text x="448.9" y="118" font-size="13" font-weight="700" fill="#1b2836">21,8 %</text>
+<text x="168" y="146" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Hidráulica</text>
+<rect x="178" y="132" width="170.1" height="18" rx="3" fill="#2b5d94"/>
+<text x="354.1" y="146" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">14,0 %</text>
+<text x="354.1" y="146" font-size="13" font-weight="700" fill="#1b2836">14,0 %</text>
+<text x="168" y="174" font-size="13" fill="#1b2836" font-weight="700" text-anchor="end">Nuclear</text>
+<rect x="178" y="160" width="108.1" height="18" rx="3" fill="#f5a800"/>
+<text x="292.1" y="174" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">8,9 %</text>
+<text x="292.1" y="174" font-size="13" font-weight="700" fill="#1b2836">8,9 %</text>
+<text x="168" y="202" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Solar</text>
+<rect x="178" y="188" width="105.7" height="18" rx="3" fill="#2b5d94"/>
+<text x="289.7" y="202" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">8,7 %</text>
+<text x="289.7" y="202" font-size="13" font-weight="700" fill="#1b2836">8,7 %</text>
+<text x="168" y="230" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Eólica</text>
+<rect x="178" y="216" width="103.3" height="18" rx="3" fill="#2b5d94"/>
+<text x="287.3" y="230" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">8,5 %</text>
+<text x="287.3" y="230" font-size="13" font-weight="700" fill="#1b2836">8,5 %</text>
+<text x="168" y="258" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Otras (*)</text>
+<rect x="178" y="244" width="62.0" height="18" rx="3" fill="#2b5d94"/>
+<text x="246.0" y="258" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">5,1 %</text>
+<text x="246.0" y="258" font-size="13" font-weight="700" fill="#1b2836">5,1 %</text>
+<text x="24" y="312" font-size="11" fill="#5b6776">(*) Petróleo, bioenergía y otras renovables (por diferencia). Las renovables en conjunto suman el 34 % y superan</text>
+<text x="24" y="327" font-size="11" fill="#5b6776">al carbón por primera vez en más de un siglo.</text>
+<text x="24" y="342" font-size="11" fill="#5b6776">Según el IAEA la nuclear aportó el 8,4 % en 2025 (8,7 % en 2024); la diferencia con Ember se debe a la</text>
+<text x="24" y="357" font-size="11" fill="#5b6776">metodología.</text>
+<text x="24" y="372" font-size="11" fill="#5b6776">Fuente: Ember, «Global Electricity Review 2026» (mayo de 2026). Elaboración propia.</text>
+</svg>

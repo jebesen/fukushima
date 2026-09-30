@@ -1,0 +1,271 @@
+{
+ "unit": "1",
+ "title": "1. Test de autoevaluación",
+ "questions": [
+  {
+   "n": 1,
+   "text": "¿En qué año se puso en servicio el primer reactor nuclear que generaba electricidad?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "1957",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "1951",
+     "correct": true,
+     "why": "<small>En 1951 entró en funcionamiento el primer reactor que producía electricidad, el EBR-1 en el laboratorio nacional de Los Álamos (EEUU). En 1956 se puso en operación el primer reactor de producción eléctrica en Europa, Calder Hall (UK).</small>"
+    },
+    {
+     "text": "1971",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "1965",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "La producción de electricidad con energía nuclear en el mundo se encuentra en el orden del ...",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "9%",
+     "correct": true,
+     "why": "<small>La energía nuclear aporta en torno al 9% de la electricidad mundial (8,4% según el OIEA y 8,9% según Ember, en 2025). El carbón aporta un 33%, el gas natural un 22%, la hidráulica un 14%, la solar un 8,7% y la eólica un 8,5%.</small>"
+    },
+    {
+     "text": "5%",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "35%",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "20%",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "¿Cuál de estas frases es cierta?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "En España existen 7 reactores nucleares en funcionamiento con 9100 MW de potencia instalada aproximadamente.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "En España existen 8 reactores nucleares en funcionamiento con 9000 MW de potencia instalada aproximadamente.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "En España existen 6 reactores nucleares en funcionamiento y 2 en fase de desmantelamiento.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "En España existen 7 reactores nucleares en funcionamiento con 7100 MW de potencia instalada aproximadamente.",
+     "correct": true,
+     "why": "<small>Los 7 reactores en funcionamiento son: Almaraz I y II, Ascó I y II, Cofrentes, Trillo I y Vandellós II. Entre todas las centrales nucleares españolas suman una potencia de unos 7.100 MW (7.123 MW netos), que en 2025 cubrió, aproximadamente, un 19% de la electricidad del país.</small>"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "Son materiales fisibles (marca todas las opciones correctas):",
+   "image": null,
+   "multiple": true,
+   "options": [
+    {
+     "text": "Plutonio-239.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Uranio-235.",
+     "correct": true,
+     "why": ""
+    },
+    {
+     "text": "Bario-144.",
+     "correct": false,
+     "why": "<small>Los materiales fisibles son los elementos que tienen capacidad de fisionarse. El bario-144 no posee esa capacidad.</small>"
+    },
+    {
+     "text": "Uranio-233.",
+     "correct": true,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "El calor residual provoca que el combustible gastado del reactor tenga que pasar un mínimo de años  en una piscina refrigerándose antes de poder ser almacenado en contenedores. ¿Cuántos años?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "2 años.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "10 años.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "5 años.",
+     "correct": true,
+     "why": "<small>Normalmente, el combustible gastado del reactor pasa cinco años en una piscina refrigerándose antes de poder ser almacenado en contenedores, debido al elevado calor residual.</small>"
+    },
+    {
+     "text": "3 años.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "¿Qué tipo de reactor posee circuito primario y secundario de agua?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Reactor de agua a presión PWR.",
+     "correct": true,
+     "why": "<small>En este tipo de centrales nucleares, el agua circula en estado líquido y a muy alta presión por el llamado “circuito primario” por medio de unas bombas que la impulsan a través del núcleo del reactor donde se calienta antes de dirigirse a los generadores de vapor. Dentro de los generadores de vapor, por el exterior de estos tubos circula el agua del circuito secundario, de manera que el agua a alta temperatura del circuito primario calienta el agua del circuito secundario hasta convertirla en vapor.</small>"
+    },
+    {
+     "text": "Reactor de agua en ebullición BWR.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "¿Cuál de estas frases es cierta?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "La función del moderador es aumentar la velocidad de los neutrones para que se produzca la fisión.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "La función del moderador es disminuir la velocidad de los neutrones para aumentar la probabilidad de fisión.",
+     "correct": true,
+     "why": "<small>Los neutrones producidos en la fisión tienen una elevada energía en forma de velocidad. Para que se produzcan nuevos choques conviene disminuir su velocidad de modo que aumente la probabilidad de que sean capturados por otro átomo fisionable y no se rompa la reacción en cadena.</small>"
+    },
+    {
+     "text": "Es importante que el refrigerante tenga una alta capacidad de absorción de neutrones.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Entre los materiales utilizados para las barras de control se encuentran el agua ligera, el agua pesada y el grafito.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "¿Qué es esto?",
+   "image": "assets/images/1/17.jpg",
+   "multiple": false,
+   "options": [
+    {
+     "text": "Las barras de control",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Un elemento de combustible",
+     "correct": true,
+     "why": "<small>Un elemento combustible es un conjunto de barras combustibles agrupadas homogéneamente en matrices cuadradas o hexagonales.</small>"
+    },
+    {
+     "text": "El reflector.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Tubos del condensador.",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "¿Cuál es la altura aproximada de una columna de pastillas de combustible?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "4 metros",
+     "correct": true,
+     "why": "<small>La altura total de las barras puede alcanzar 4 m. Por ello, es necesario un soporte que mantenga la estructura vertical de todas las barras y la colocación a distintas alturas de unos dispositivos espaciadores, las rejillas.</small>"
+    },
+    {
+     "text": "10 metros",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "2 metros",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "50 centímetros",
+     "correct": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "En los reactores tipo BWR, ¿por dónde se introducen las barras de control?",
+   "image": null,
+   "multiple": false,
+   "options": [
+    {
+     "text": "Por la parte superior.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "De forma lateral, perpendicularmente a los elementos de combustible.",
+     "correct": false,
+     "why": ""
+    },
+    {
+     "text": "Por la parte inferior.",
+     "correct": true,
+     "why": "<small>En los reactores tipo BWR, las barras de control están situadas y se introducen por la parte inferior de la vasija. Esto es así dado que el acceso al núcleo del reactor es imposible desde la parte superior de la vasija, debido a la presencia de los separadores y secadores de vapor. El movimiento de introducción o extracción de las barras de control para regular el reactor se realiza mediante un sistema hidráulico, maniobrado desde el exterior.</small>"
+    }
+   ]
+  }
+ ]
+}

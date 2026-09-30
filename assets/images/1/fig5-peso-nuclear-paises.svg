@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 707" width="760" height="707" role="img" aria-labelledby="t d" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Peso de la energía nuclear en la electricidad de cada país, 2025</title><desc id="d">Gráfico de barras del porcentaje de electricidad de origen nuclear en 2025: Francia 68,1 %, Eslovaquia 64,4 %, Ucrania 52 %, Hungría 45,2 %, Chequia 42,1 %, Eslovenia 39,7 %, Finlandia 39,6 %, Bielorrusia 39,5 %, Bulgaria 38,3 %, Bélgica 33,7 %, Corea del Sur 31 %, Armenia 30,6 %, Suiza 27,1 %, Suecia 26,7 %, España 18,9 %, Rusia 18,7 %, EE. UU. 17,7 %, Japón 9,4 % y China 5 %.</desc>
+<rect width="760" height="707" rx="12" fill="#ffffff"/>
+<text x="24" y="32" font-size="18" font-weight="700" fill="#1b2836">Peso de la energía nuclear en la electricidad de cada país, 2025</text>
+<text x="24" y="53" font-size="12.5" fill="#5b6776">Los 14 países que generaron al menos una cuarta parte de su electricidad con nuclear, y algunos de referencia</text>
+<line x1="178.0" x2="178.0" y1="70" y2="608" stroke="#e3e8ee"/>
+<text x="178.0" y="624" font-size="11" fill="#5b6776" text-anchor="middle">0</text>
+<line x1="299.5" x2="299.5" y1="70" y2="608" stroke="#e3e8ee"/>
+<text x="299.5" y="624" font-size="11" fill="#5b6776" text-anchor="middle">20</text>
+<line x1="421.0" x2="421.0" y1="70" y2="608" stroke="#e3e8ee"/>
+<text x="421.0" y="624" font-size="11" fill="#5b6776" text-anchor="middle">40</text>
+<line x1="542.5" x2="542.5" y1="70" y2="608" stroke="#e3e8ee"/>
+<text x="542.5" y="624" font-size="11" fill="#5b6776" text-anchor="middle">60</text>
+<line x1="664.0" x2="664.0" y1="70" y2="608" stroke="#e3e8ee"/>
+<text x="664.0" y="624" font-size="11" fill="#5b6776" text-anchor="middle">80</text>
+<line x1="329.9" x2="329.9" y1="66" y2="608" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="334.9" y="64" font-size="11" fill="#c0392b">25 %</text>
+<text x="168" y="90" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Francia</text>
+<rect x="178" y="76" width="413.7" height="18" rx="3" fill="#2b5d94"/>
+<text x="597.7" y="90" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">68,1 %</text>
+<text x="597.7" y="90" font-size="13" font-weight="700" fill="#1b2836">68,1 %</text>
+<text x="168" y="118" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Eslovaquia</text>
+<rect x="178" y="104" width="391.2" height="18" rx="3" fill="#2b5d94"/>
+<text x="575.2" y="118" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">64,4 %</text>
+<text x="575.2" y="118" font-size="13" font-weight="700" fill="#1b2836">64,4 %</text>
+<text x="168" y="146" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Ucrania</text>
+<rect x="178" y="132" width="315.9" height="18" rx="3" fill="#2b5d94"/>
+<text x="499.9" y="146" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">52,0 %</text>
+<text x="499.9" y="146" font-size="13" font-weight="700" fill="#1b2836">52,0 %</text>
+<text x="168" y="174" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Hungría</text>
+<rect x="178" y="160" width="274.6" height="18" rx="3" fill="#2b5d94"/>
+<text x="458.6" y="174" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">45,2 %</text>
+<text x="458.6" y="174" font-size="13" font-weight="700" fill="#1b2836">45,2 %</text>
+<text x="168" y="202" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Chequia</text>
+<rect x="178" y="188" width="255.8" height="18" rx="3" fill="#2b5d94"/>
+<text x="439.8" y="202" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">42,1 %</text>
+<text x="439.8" y="202" font-size="13" font-weight="700" fill="#1b2836">42,1 %</text>
+<text x="168" y="230" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Eslovenia</text>
+<rect x="178" y="216" width="241.2" height="18" rx="3" fill="#2b5d94"/>
+<text x="425.2" y="230" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">39,7 %</text>
+<text x="425.2" y="230" font-size="13" font-weight="700" fill="#1b2836">39,7 %</text>
+<text x="168" y="258" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Finlandia</text>
+<rect x="178" y="244" width="240.6" height="18" rx="3" fill="#2b5d94"/>
+<text x="424.6" y="258" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">39,6 %</text>
+<text x="424.6" y="258" font-size="13" font-weight="700" fill="#1b2836">39,6 %</text>
+<text x="168" y="286" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Bielorrusia</text>
+<rect x="178" y="272" width="240.0" height="18" rx="3" fill="#2b5d94"/>
+<text x="424.0" y="286" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">39,5 %</text>
+<text x="424.0" y="286" font-size="13" font-weight="700" fill="#1b2836">39,5 %</text>
+<text x="168" y="314" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Bulgaria</text>
+<rect x="178" y="300" width="232.7" height="18" rx="3" fill="#2b5d94"/>
+<text x="416.7" y="314" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">38,3 %</text>
+<text x="416.7" y="314" font-size="13" font-weight="700" fill="#1b2836">38,3 %</text>
+<text x="168" y="342" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Bélgica</text>
+<rect x="178" y="328" width="204.7" height="18" rx="3" fill="#2b5d94"/>
+<text x="388.7" y="342" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">33,7 %</text>
+<text x="388.7" y="342" font-size="13" font-weight="700" fill="#1b2836">33,7 %</text>
+<text x="168" y="370" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Corea del Sur</text>
+<rect x="178" y="356" width="188.3" height="18" rx="3" fill="#2b5d94"/>
+<text x="372.3" y="370" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">31,0 %</text>
+<text x="372.3" y="370" font-size="13" font-weight="700" fill="#1b2836">31,0 %</text>
+<text x="168" y="398" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Armenia</text>
+<rect x="178" y="384" width="185.9" height="18" rx="3" fill="#2b5d94"/>
+<text x="369.9" y="398" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">30,6 %</text>
+<text x="369.9" y="398" font-size="13" font-weight="700" fill="#1b2836">30,6 %</text>
+<text x="168" y="426" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Suiza</text>
+<rect x="178" y="412" width="164.6" height="18" rx="3" fill="#2b5d94"/>
+<text x="348.6" y="426" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">27,1 %</text>
+<text x="348.6" y="426" font-size="13" font-weight="700" fill="#1b2836">27,1 %</text>
+<text x="168" y="454" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Suecia</text>
+<rect x="178" y="440" width="162.2" height="18" rx="3" fill="#2b5d94"/>
+<text x="346.2" y="454" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">26,7 %</text>
+<text x="346.2" y="454" font-size="13" font-weight="700" fill="#1b2836">26,7 %</text>
+<text x="168" y="482" font-size="13" fill="#1b2836" font-weight="700" text-anchor="end">España</text>
+<rect x="178" y="468" width="114.8" height="18" rx="3" fill="#f5a800"/>
+<text x="298.8" y="482" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">18,9 %</text>
+<text x="298.8" y="482" font-size="13" font-weight="700" fill="#1b2836">18,9 %</text>
+<text x="168" y="510" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Rusia</text>
+<rect x="178" y="496" width="113.6" height="18" rx="3" fill="#2b5d94"/>
+<text x="297.6" y="510" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">18,7 %</text>
+<text x="297.6" y="510" font-size="13" font-weight="700" fill="#1b2836">18,7 %</text>
+<text x="168" y="538" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">EE. UU.</text>
+<rect x="178" y="524" width="107.5" height="18" rx="3" fill="#2b5d94"/>
+<text x="291.5" y="538" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">17,7 %</text>
+<text x="291.5" y="538" font-size="13" font-weight="700" fill="#1b2836">17,7 %</text>
+<text x="168" y="566" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">Japón</text>
+<rect x="178" y="552" width="57.1" height="18" rx="3" fill="#2b5d94"/>
+<text x="241.1" y="566" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">9,4 %</text>
+<text x="241.1" y="566" font-size="13" font-weight="700" fill="#1b2836">9,4 %</text>
+<text x="168" y="594" font-size="13" fill="#1b2836" font-weight="400" text-anchor="end">China</text>
+<rect x="178" y="580" width="30.4" height="18" rx="3" fill="#2b5d94"/>
+<text x="214.4" y="594" font-size="13" font-weight="700" fill="#ffffff" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">5,0 %</text>
+<text x="214.4" y="594" font-size="13" font-weight="700" fill="#1b2836">5,0 %</text>
+<text x="24" y="648" font-size="11" fill="#5b6776">Media mundial: alrededor del 9 %.</text>
+<text x="24" y="663" font-size="11" fill="#5b6776">Fuente: World Nuclear Association, «Nuclear Power in the World Today» (29/09/2026), con datos del IAEA PRIS.</text>
+<text x="24" y="678" font-size="11" fill="#5b6776">Elaboración propia.</text>
+</svg>
