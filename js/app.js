@@ -1,12 +1,14 @@
 /* Curso «El accidente nuclear de Fukushima» — aplicación estática (sin backend).
    Enrutado por hash (#/unidad/lección) para funcionar en GitHub Pages sin configuración. */
 
+import { CONFIG } from './config.js';
+
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const ico = (n) => `<svg class="ico" aria-hidden="true"><use href="#i-${n}"/></svg>`;
 const SITE = 'Fukushima · OCW UNED';
-const COURSE_UPDATED = 'septiembre de 2026'; // fecha de la última revisión de datos; se muestra en la portada
+const COURSE_UPDATED = CONFIG.updated; // se muestra en la portada; se cambia en js/config.js
 
 const store = {
   get(k, d) { try { const v = localStorage.getItem('fuku:' + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
@@ -23,6 +25,8 @@ const main = $('#main');
 /* ------------------------------------------------------------------ */
 async function init() {
   setupChrome();
+  initTracking();
+  loadVisits();
   try {
     course = await (await fetch('data/course.json')).json();
   } catch {
@@ -67,6 +71,7 @@ async function route() {
   if (view.visited) markVisited(view.visited, view.isExtra);
   updateSidebar();
   setMobileBar(view.nav);
+  track(parts.length ? '/' + parts.join('/') : '/', document.title);
   onScroll();
 }
 
@@ -389,6 +394,7 @@ function renderSidebar() {
     <a class="top-link" href="#/creditos">Equipo</a>
     <div class="side-foot">
       <p class="muted" id="prog-count"></p>
+      <button type="button" class="btn sec small" data-feedback${fbOn() ? '' : ' hidden'}>Enviar comentarios</button>
       <button type="button" class="btn sec small" data-reset>Borrar mi progreso</button>
     </div>
   </nav>`;
@@ -552,6 +558,7 @@ function setupChrome() {
   };
   $('#btn-menu').onclick = () => (document.body.classList.contains('nav-open') ? closeNav() : openNav());
   $('#mb-menu').onclick = openNav;
+  setupFeedback();
   $('#scrim').onclick = closeNav;
   $('#side').addEventListener('click', (e) => { if (e.target.closest('a')) closeNav(); });
 
@@ -594,6 +601,95 @@ function setupChrome() {
     if (installEvt) { installEvt.prompt(); await installEvt.userChoice; installEvt = null; btn.hidden = true; }
     else if (isIOS()) $('#ios-hint').showModal();
   };
+}
+
+/* ------------------------------------------------------------------ */
+/* Estadísticas de uso (GoatCounter, sin cookies) y formulario        */
+/* ------------------------------------------------------------------ */
+// El formulario solo se activa si hay dirección de envío y al menos los identificadores de la valoración y el comentario
+const fbOn = () => {
+  const f = CONFIG.feedback || {};
+  return !!(f.action && f.fields && f.fields.rating && f.fields.comment);
+};
+let gcReady = false;
+const gcQueue = [];
+
+function initTracking() {
+  if (!CONFIG.goatcounter) return;
+  const note = $('#gc-note');
+  if (note) note.hidden = false;
+  const s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://gc.zgo.at/count.js';
+  s.dataset.goatcounter = `https://${CONFIG.goatcounter}.goatcounter.com/count`;
+  s.dataset.goatcounterSettings = JSON.stringify({ no_onload: true }); // las páginas se cuentan a mano (la web es de una sola página)
+  s.onload = () => { gcReady = true; gcQueue.splice(0).forEach((h) => window.goatcounter.count(h)); };
+  s.onerror = () => { gcQueue.length = 0; }; // bloqueador de anuncios o sin conexión: se ignora
+  document.head.append(s);
+}
+
+function track(path, title) {
+  if (!CONFIG.goatcounter) return;
+  const hit = { path, title };
+  if (gcReady && window.goatcounter && window.goatcounter.count) window.goatcounter.count(hit);
+  else if (gcQueue.length < 20) gcQueue.push(hit);
+}
+
+async function loadVisits() {
+  const el = $('#visits');
+  if (!el || !CONFIG.goatcounter || !CONFIG.publicCounter) return;
+  try {
+    const r = await fetch(`https://${CONFIG.goatcounter}.goatcounter.com/counter/TOTAL.json`);
+    if (!r.ok) throw new Error(String(r.status));
+    const { count } = await r.json();
+    $('b', el).textContent = count;
+    el.hidden = false;
+  } catch { el.hidden = true; } // sin conexión, bloqueado o contador público desactivado
+}
+
+function setupFeedback() {
+  const fb = CONFIG.feedback || {};
+  $$('[data-feedback]').forEach((el) => { el.hidden = !fbOn(); });
+  if (!fbOn()) return;
+  const dlg = $('#feedback'), form = $('form', dlg), done = $('.fb-done', dlg), msg = $('.fb-msg', dlg), send = $('button[type=submit]', form);
+  const scores = $$('.sc', form);
+  const say = (t, cls = '') => { msg.textContent = t; msg.className = 'fb-msg ' + cls; };
+  const paint = () => scores.forEach((l) => l.classList.toggle('on', $('input', l).checked));
+  scores.forEach((l) => $('input', l).addEventListener('change', paint));
+
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('[data-feedback]')) {
+      closeNav(); say(''); form.hidden = false; done.hidden = true; dlg.showModal();
+    } else if (e.target.closest('[data-fb-close]')) dlg.close();
+  });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const el = form.elements;
+    if (el.website.value) return; // campo señuelo: solo lo rellenan los bots
+    const rating = el.rating.value, comment = el.comment.value.trim(), email = el.email.value.trim();
+    if (!rating && !comment) return say('Elige una valoración o escribe un comentario.', 'err');
+    if (email && !/^\S+@\S+\.\S+$/.test(email)) return say('El correo no parece válido (puedes dejarlo en blanco).', 'err');
+    if (!navigator.onLine) return say('Sin conexión: inténtalo de nuevo cuando estés en línea.', 'err');
+    if (Date.now() - store.get('fbLast', 0) < 30000) return say('Espera unos segundos antes de enviar otro mensaje.', 'err');
+
+    const page = location.hash.replace(/^#/, '') || '/';
+    const data = new URLSearchParams();
+    const put = (k, v) => { if (fb.fields && fb.fields[k] && v) data.set(fb.fields[k], v); };
+    put('rating', rating);
+    put('comment', fb.fields.page ? comment : (comment ? `${comment}\n\n[Página: ${page}]` : `[Página: ${page}]`));
+    put('email', email);
+    put('page', page);
+
+    send.disabled = true; say('Enviando…');
+    try {
+      // Google Forms no devuelve confirmación al navegador (no-cors): si no hay error de red se da por enviado.
+      await fetch(fb.action, { method: 'POST', mode: 'no-cors', body: data });
+      store.set('fbLast', Date.now());
+      form.reset(); paint(); say(''); form.hidden = true; done.hidden = false;
+    } catch { say('No se pudo enviar. Comprueba tu conexión e inténtalo de nuevo.', 'err'); }
+    send.disabled = false;
+  });
 }
 
 function registerSW() {

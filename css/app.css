@@ -320,6 +320,36 @@ dialog::backdrop { background: rgba(0,0,0,.6); }
 .update .table-wrap { margin: .8em 0; }
 .update table.data { font-size: .88rem; }
 
+/* ===== Comentarios y contador de visitas ===== */
+[hidden] { display: none !important; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+#feedback { width: min(94vw, 540px); padding: 1.3rem; max-height: 92vh; overflow: auto; }
+#feedback h3 { margin: 0 0 .3rem; }
+#feedback .muted { margin: 0 0 .4rem; font-size: .93rem; }
+.fb fieldset { border: 0; padding: 0; margin: .9rem 0 0; min-width: 0; }
+.fb legend { padding: 0; font-weight: 600; font-size: .92rem; }
+.scale { display: grid; grid-template-columns: repeat(10, 1fr); gap: .25rem; margin-top: .45rem; }
+.fb .sc { position: relative; display: block; margin: 0; font-weight: 600; }
+.sc span { display: grid; place-items: center; min-height: 2.5rem; border: 2px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--text); cursor: pointer; font-size: .95rem; transition: background .12s, border-color .12s; }
+.sc:hover span { border-color: var(--accent); }
+.sc.on span { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.sc:focus-within span { outline: 3px solid var(--accent); outline-offset: 2px; }
+.scale-l { display: flex; justify-content: space-between; margin-top: .3rem; font-size: .75rem; color: var(--muted); }
+.fb-f { display: block; margin: .9rem 0 0; font-weight: 600; font-size: .92rem; }
+.fb-f textarea, .fb-f input { display: block; width: 100%; margin-top: .3rem; padding: .6rem .7rem; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--text); font: 400 1rem/1.4 system-ui, sans-serif; }
+.fb-f textarea { resize: vertical; min-height: 6rem; }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.fb-msg { min-height: 1.4em; margin: .6rem 0 0; font-size: .9rem; }
+.fb-msg.err { color: var(--bad); font-weight: 600; }
+.fb-priv { margin: .3rem 0 0; font-size: .78rem; color: var(--muted); line-height: 1.45; }
+.fb-done { padding: .3rem 0; }
+.fb-done h3 { margin: 0 0 .3rem; }
+.foot .btn { background: var(--accent); color: var(--accent-ink); }
+.foot .visits { margin: .6rem 0 0; font-size: .95rem; }
+.foot .visits b { color: #fff; font-size: 1.15rem; }
+.foot .fine { margin: .3rem 0 0; font-size: .78rem; opacity: .75; }
+@media (max-width: 460px) { .scale { grid-template-columns: repeat(5, 1fr); } }
+
 /* ===== Animación del tsunami ===== */
 .anim-tsunami { --sky1: #bfe3ff; --sky2: #e8f4ff; --tz-ink: #1b2836; margin: 1.6em 0; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: var(--surface); }
 :root[data-theme="dark"] .anim-tsunami { --sky1: #0d2036; --sky2: #16304d; --tz-ink: #e6ebf2; }

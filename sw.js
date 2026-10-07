@@ -2,12 +2,12 @@
    - Al instalar guarda la interfaz y TODO el texto del curso (fragmentos HTML, tests e índice de búsqueda).
    - Imágenes y PDF se guardan al visitarlos (cache-first).
    - Sube VERSION cada vez que publiques cambios para forzar la actualización en los móviles. */
-const VERSION = 'v7';
+const VERSION = 'v9';
 const SHELL = `fuku-shell-${VERSION}`;
 const RUNTIME = `fuku-media-${VERSION}`;
 const MAX_MEDIA = 400; // nº máximo de imágenes/PDF en caché
 
-const CRITICAL = ['./', 'index.html', 'css/app.css', 'js/app.js', 'manifest.webmanifest', 'data/course.json'];
+const CRITICAL = ['./', 'index.html', 'css/app.css', 'js/app.js', 'js/config.js', 'manifest.webmanifest', 'data/course.json'];
 const OPTIONAL = [
   'js/tsunami.js',
   'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png',

@@ -1,87 +1,95 @@
-# Curso «El accidente nuclear de Fukushima» (versión estática / PWA)
+# Curso «El accidente nuclear de Fukushima»
 
-Reescritura de la antigua aplicación de Google App Engine (`fukushima/`) como sitio **100 % estático**:
-HTML + CSS + JavaScript sin dependencias ni paso de compilación. Se puede alojar en GitHub Pages,
-Netlify, un bucket, o cualquier servidor de ficheros.
+Curso abierto en español (UNED) como **web estática instalable (PWA)**: HTML, CSS y JavaScript sin dependencias ni paso
+de compilación. Se publica tal cual en GitHub Pages.
 
-- Enrutado por *hash* (`#/3/3`): no necesita configuración del servidor ni funciona distinto en subcarpetas.
-- Responsive, modo claro/oscuro, buscador (Ctrl+K o «/»), progreso guardado en el dispositivo.
-- **Instalable** (PWA): manifest + service worker. Funciona sin conexión para la interfaz y todo el texto;
-  las imágenes se guardan al visitarlos. Los vídeos de YouTube requieren conexión. El curso no ofrece descargas en PDF.
+- Enrutado por *hash* (`#/3/3`): no necesita configuración del servidor.
+- Responsive, modo claro/oscuro, buscador (Ctrl+K o «/»), progreso guardado en el dispositivo y barra de navegación en móvil.
+- **Instalable** y con funcionamiento sin conexión para la interfaz y todos los textos; las imágenes se guardan al visitarlas.
+  Los vídeos de YouTube requieren conexión.
 
-## 1. Generar el contenido (una sola vez)
+## Estructura
 
-Los textos del curso se migran automáticamente desde las plantillas Jinja de `../fukushima`.
-
-```bash
-pip install beautifulsoup4 html5lib pillow
-python tools/migrate.py
-# opcional: python tools/migrate.py --spellcheck   (pip install pyspellchecker)
+```
+index.html            estructura de la página, iconos y cuadros de diálogo
+css/app.css           estilos
+js/app.js             aplicación (enrutado, tests, búsqueda, navegación, comentarios, estadísticas)
+js/config.js          ajustes: fecha de actualización, contador de visitas y formulario de comentarios
+js/tsunami.js         animación del tsunami (apartado 2.4)
+sw.js                 caché y funcionamiento sin conexión
+manifest.webmanifest  datos de la aplicación instalable
+data/course.json      estructura del curso: unidades, apartados y contenidos «¡Profundiza!»
+data/search.json      índice del buscador (se reconstruye con tools/rebuild_search.py)
+content/<u>/<l>.html  texto de cada apartado        content/<u>/auto.json  test de cada unidad
+assets/images/        imágenes
+tools/                utilidades (ver más abajo)
 ```
 
-Esto crea `content/`, `data/`, `assets/` e `icons/` y un informe **`CAMBIOS.md`** con:
-erratas corregidas, enlaces arreglados, rutas con mayúsculas corregidas, recursos que faltan, incidencias
-en los tests y todo lo que conviene revisar a mano. **Léelo antes de publicar.**
+## Cómo se edita el curso
 
-Puedes repetir el comando cuando quieras: regenera todo lo migrado (no toca `index.html`, `css/`, `js/`, `sw.js`).
+El contenido se edita **directamente** en estos ficheros; no hay ningún paso de generación.
 
-## Contenido actualizado a mano (`overrides/`)
+| Qué quieres cambiar | Dónde |
+|---|---|
+| Texto de un apartado | `content/<unidad>/<apartado>.html` (HTML sencillo: `<p>`, `<h2 class="sec">`, `<figure>`…) |
+| Preguntas de un test | `content/<unidad>/auto.json` (`correct: true` marca la respuesta correcta) |
+| Títulos o índice del curso | `data/course.json` |
+| Imágenes | `assets/images/<unidad>/` y la etiqueta `<img>` correspondiente |
+| Fecha de la portada, contador, formulario | `js/config.js` |
 
-Si una lección necesita datos más recientes que los de la web original, se escribe su versión nueva en
-`overrides/content/<unidad>/<lección>.html` (por ejemplo `overrides/content/1/1.html`). Al ejecutar `migrate.py`
-esa versión **sustituye** a la que saldría de la plantilla original, así que no se pierde al regenerar.
+Después de cambiar texto o tests, reconstruye el índice del buscador:
 
-Las gráficas del apartado 1.1 las dibuja `tools/make_charts.py` (SVG, sin dependencias). Las cifras están en ese
-fichero, con su fuente y fecha, para revisarlas y actualizarlas: edita los datos y vuelve a ejecutar `migrate.py`.
+```bash
+python tools/rebuild_search.py
+```
 
-Otras dos formas de actualizar sin perder los cambios al regenerar:
-
-- `overrides/patches/<unidad>/<lección>.json`: **actualización integrada en el texto**. Cada parche sustituye (`replace`/`with`) o
-  amplía (`after`/`insert`) una frase concreta de la lección migrada, de modo que los datos nuevos quedan dentro del propio texto
-  (es lo que se usa en las unidades 2, 4, 5 y 6). Si una frase no se encuentra o aparece varias veces, el parche no se aplica y
-  `CAMBIOS.md` lo avisa («PARCHE NO APLICADO»).
-- `overrides/quiz/<unidad>.json`: corrige preguntas concretas de un test (`n` = número de pregunta, opciones numeradas desde 1).
-
-La fecha que aparece en la esquina de la portada («Actualizado en septiembre de 2026») está en la constante
-`COURSE_UPDATED` de `js/app.js`: cámbiala cuando vuelvas a revisar los datos.
-
-## 2. Probar en local
+## Probar en local
 
 ```bash
 python -m http.server 8080
 # abre http://localhost:8080
 ```
 
-(El service worker solo funciona en `localhost` o HTTPS.)
+El service worker solo funciona en `localhost` o con HTTPS. No abras `index.html` con doble clic: el navegador bloquea así los módulos.
 
-## 3. Publicar en GitHub Pages
+## Publicar cambios (GitHub Pages)
 
-1. Sube el contenido de esta carpeta a un repositorio (sin `tools/` si no lo quieres; no hace falta para publicar).
-2. *Settings → Pages → Deploy from a branch → `main` / `(root)`*.
-3. Abre `https://<usuario>.github.io/<repo>/` desde el móvil: el navegador ofrecerá **Instalar** / *Añadir a pantalla de inicio*.
-
-## 4. Actualizaciones
-
-Cada vez que publiques cambios, **sube el número de `VERSION` en `sw.js`** (`v1` → `v2`). Los móviles con la app
-instalada verán el aviso «Hay una nueva versión del curso» y actualizarán con un toque.
-
-## Estructura
-
+```bash
+git add .
+git commit -m "Descripción del cambio"
+git push
 ```
-index.html            estructura, iconos SVG y diálogos
-css/app.css           estilos (tema claro/oscuro, timeline, quiz…)
-js/app.js             enrutado, vistas, tests, búsqueda, popovers, instalación
-js/tsunami.js         animación SVG del tsunami (sustituye a la infografía Flash de 2.4)
-sw.js                 caché y funcionamiento sin conexión
-manifest.webmanifest  datos de la aplicación instalable
-data/course.json      estructura del curso (unidades y lecciones)
-data/search.json      índice del buscador
-content/<u>/<l>.html  texto de cada lección       content/<u>/auto.json  test de la unidad
-assets/               imágenes
-tools/migrate.py      migración desde ../fukushima
-tools/make_charts.py  gráficas SVG del apartado 1.1 (datos 2025-2026)
-overrides/            versiones actualizadas a mano de lecciones (sustituyen a la migración)
-```
+
+Y **sube el número de `VERSION` en `sw.js`** (`'v9'` → `'v10'`…) cada vez que publiques cambios: los móviles con la app instalada
+verán el aviso «Hay una nueva versión del curso» y actualizarán con un toque. Si no cambia `VERSION`, pueden seguir viendo la versión anterior.
+
+Para ver tu comentario en la hoja o las visitas, no hay que hacer nada más (ver el apartado siguiente).
+
+## Contador de visitas y formulario de comentarios
+
+Todo se configura en `js/config.js`. Deja un valor en blanco para desactivar esa función.
+
+**Contador de visitas (GoatCounter, sin cookies).** Cuenta `jebesen`; panel privado en `https://jebesen.goatcounter.com`.
+Cada página que se abre dentro de la app se cuenta a mano, porque la web es de una sola página. El contador público del pie
+necesita tener activado *Settings → Site → «Allow adding visitor counts on your website»*; si no, simplemente no se muestra.
+Las visitas desde `localhost` no se cuentan y los bloqueadores de anuncios pueden impedir la medición.
+
+**Comentarios (Google Forms → hoja de Drive).** El cuadro de comentarios es propio de la web y envía a un formulario de Google
+con tres preguntas: valoración (escala 1-10), comentarios y correo. En `feedback` están la dirección de envío (`…/formResponse`) y el
+identificador `entry.NNN` de cada pregunta. Si cambias las preguntas del formulario (o creas otro), hay que actualizar esos
+identificadores: se obtienen con el menú ⋮ del formulario → «Obtener enlace rellenado previamente».
+La página desde la que se escribe se añade al final del comentario. Google no devuelve confirmación al navegador, así que la web da
+el envío por bueno si no hay error de red: la comprobación real es ver la respuesta en la hoja.
+
+## Utilidades (`tools/`)
+
+- `rebuild_search.py`: reconstruye el índice del buscador. **Es la única que se usa de forma habitual.**
+- `selftest.js`: autocomprobación; se pega en la consola del navegador (F12) con la web abierta y revisa páginas, imágenes,
+  enlaces y tests.
+- `find_unused.py`: lista (y, con `--delete`, borra) las imágenes que ya no usa ninguna página.
+- `make_charts.py`: dibuja las gráficas SVG del apartado 1.1 (`assets/images/1/fig*.svg`) a partir de las cifras que contiene.
+- `migrate.py` y la carpeta `overrides/`: restos de la migración desde la antigua aplicación de App Engine. **No los ejecutes:**
+  regenerarían el contenido y pisarían las ediciones hechas directamente. Se pueden borrar.
 
 ## Licencia
 

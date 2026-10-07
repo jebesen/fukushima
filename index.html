@@ -88,6 +88,12 @@
           <p>© 2016 Dpto. Ingeniería Energética. UNED. Licencia Creative Commons.</p>
           <img src="assets/images/CC.png" alt="Creative Commons" loading="lazy">
         </div>
+        <div>
+          <h3>Tu opinión</h3>
+          <p><button type="button" class="btn small" data-feedback hidden>Enviar comentarios</button></p>
+          <p id="visits" class="visits" hidden><b></b> páginas vistas</p>
+          <p id="gc-note" class="fine" hidden>Estadísticas de uso anónimas y sin cookies (GoatCounter).</p>
+        </div>
       </div>
     </footer>
   </div>
@@ -118,6 +124,47 @@
     <li>Elige <b>Añadir a pantalla de inicio</b>.</li>
   </ol>
   <form method="dialog"><button class="btn">Entendido</button></form>
+</dialog>
+
+<dialog id="feedback" aria-labelledby="fb-title">
+  <form class="fb" novalidate>
+    <h3 id="fb-title">Tu opinión sobre el curso</h3>
+    <p class="muted">Cuéntanos qué te parece o si has encontrado algún error. Tardas menos de un minuto.</p>
+    <fieldset class="fb-rate">
+      <legend>Valoración del curso</legend>
+      <div class="scale" role="radiogroup" aria-label="Valoración de 1 (mínima) a 10 (máxima)">
+        <label class="sc"><input class="sr" type="radio" name="rating" value="1"><span>1</span></label>
+        <label class="sc"><input class="sr" type="radio" name="rating" value="2"><span>2</span></label>
+        <label class="sc"><input class="sr" type="radio" name="rating" value="3"><span>3</span></label>
+        <label class="sc"><input class="sr" type="radio" name="rating" value="4"><span>4</span></label>
+        <label class="sc"><input class="sr" type="radio" name="rating" value="5"><span>5</span></label>
+        <label class="sc"><input class="sr" type="radio" name="rating" value="6"><span>6</span></label>
+        <label class="sc"><input class="sr" type="radio" name="rating" value="7"><span>7</span></label>
+        <label class="sc"><input class="sr" type="radio" name="rating" value="8"><span>8</span></label>
+        <label class="sc"><input class="sr" type="radio" name="rating" value="9"><span>9</span></label>
+        <label class="sc"><input class="sr" type="radio" name="rating" value="10"><span>10</span></label>
+      </div>
+      <div class="scale-l"><span>Mínima valoración</span><span>Máxima valoración</span></div>
+    </fieldset>
+    <label class="fb-f">Comentarios
+      <textarea name="comment" rows="4" maxlength="2000"></textarea>
+    </label>
+    <label class="fb-f">Tu correo (no es obligatorio; solo si quieres que te respondamos)
+      <input type="email" name="email" autocomplete="email" maxlength="120">
+    </label>
+    <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <p class="fb-msg" role="status" aria-live="polite"></p>
+    <p class="fb-priv">Los comentarios se guardan en una hoja de cálculo de los autores del curso. Si escribes tu correo, solo se usará para responderte. Se guarda también la página desde la que escribes. No se recoge ningún otro dato.</p>
+    <div class="dlg-actions">
+      <button type="button" class="btn sec" data-fb-close>Cancelar</button>
+      <button type="submit" class="btn">Enviar</button>
+    </div>
+  </form>
+  <div class="fb-done" hidden>
+    <h3>¡Gracias!</h3>
+    <p>Hemos recibido tu mensaje.</p>
+    <div class="dlg-actions"><button type="button" class="btn" data-fb-close>Cerrar</button></div>
+  </div>
 </dialog>
 
 <dialog id="reset" aria-label="Borrar el progreso">
